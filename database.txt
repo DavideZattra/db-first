@@ -1,0 +1,21 @@
+id (primary key) - MEDIUMINT - AUTOINCREMENT - (UNIQUE - NOT NULL)
+brand VARCHAR(25) - (NOT NULL)
+model VARCHAR(60) - (NOT NULL)
+year - data - YEAR - (NOT NULL)
+price - FLOAT(8, 2) - (NOT NULL)
+img - VARCHAR(255) - (NULL)
+frame number - VARCHAR(30) - (UNIQUE - NOT NULL)
+used - boolean - TINYINT
+kw FLOAT(4, 2) (NOT NULL)
+km FLOAT(6, 2) (NOT NULL)
+type of engine - VARCHAR(25) - (NOT NULL)
+doors - TINYINT - (NOT NULL)
+seats - TINYINT - (NOT NULL) 
+
+
+version VARCHAR(50) - (NULL)
+equipment VARCHAR(255) - (NULL)
+external-color - VARCHAR(7) - (NOT NULL)
+rims - VARCHAR(50) - (NOT NULL)
+type of car - VARCHAR(25) - (NOT NULL)
+emissions - VARCHAR(7) - (NOT NULL)
